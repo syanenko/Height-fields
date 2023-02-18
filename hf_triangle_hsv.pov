@@ -43,10 +43,10 @@ light_source { <10,10,10>, rgb <1,1,1> }
 //
 intersection{
 
-  box{-0.115, 0.99 
+  box{-0.09, 0.99 
   pigment {  gradient y
              color_map {hsv}
-             translate -y * 0.45
+             translate -y * 0.40
              scale 0.3 }}
 
   object { hf }
