@@ -24,7 +24,7 @@ light_source { <10,10,10>, rgb <1,1,1> }
 #declare hot = make_colormap (hot, 0, 0);
 
 //
-// Sine function
+// Sine wave function
 //
 #declare fn = function { pattern {
                          granite sine_wave scale 0.7 }}

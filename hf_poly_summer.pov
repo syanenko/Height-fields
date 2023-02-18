@@ -24,11 +24,10 @@ light_source { <10,10,10>, rgb <1,1,1> }
 #declare summer = make_colormap (summer, 0, 0);
 
 //
-// Exponential function
+// Exponential wave function
 //
 #declare fn = function { pattern {
                          granite poly_wave 0.2 scale 0.7 }}
-
 //
 // Height field
 // 
