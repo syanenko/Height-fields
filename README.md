@@ -26,7 +26,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6688301/219867457-1bdd097d-df70-4e72-bc61-b8099a22a18e.png" alt="Material Bread logo">
+  <img src="https://user-images.githubusercontent.com/6688301/219898795-341ccc6b-11b4-45c2-a79b-6305633dc437.png" alt="Material Bread logo">
  <p align="center">
    <em>Triangle wave function on granite pattern with <b>'hsv'</b> colormap</em>
  </p> 
