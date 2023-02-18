@@ -41,3 +41,5 @@ Officail site: [povray.org](http://www.povray.org)\
 Documentation: [wiki.povray.org](https://wiki.povray.org/content/Documentation:Contents)\
 Newsgroups: [news.povray.org/groups/](https://news.povray.org/groups/)\
 Repository: [github.com/POV-Ray/povray](https://github.com/POV-Ray/povray)
+
+Contact me at [LinkedIn](https://www.linkedin.com/in/sergey-yanenko-57b21a96/).
