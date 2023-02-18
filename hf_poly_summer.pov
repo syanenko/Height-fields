@@ -8,9 +8,9 @@ global_settings { assumed_gamma 1 }
 //
 camera 
 { 
-  location <1.7, 1.25, 2.2,>
+  location <1.78, 1.75, 2.2,>
   look_at < 0.12,-0.5,0>
-  angle 35
+  angle 28
 }
 
 //
@@ -21,32 +21,32 @@ light_source { <10,10,10>, rgb <1,1,1> }
 //
 // Colormap
 //
-#declare hot = make_colormap (hot, 0, 0);
+#declare summer = make_colormap (summer, 0, 0);
 
 //
-// Sine function
+// Exponential function
 //
 #declare fn = function { pattern {
-                         granite sine_wave scale 0.7 }}
+                         granite poly_wave 0.2 scale 0.7 }}
+
 //
 // Height field
 // 
 #declare hf = height_field {
-         function 800, 800 { fn(x, y, z) }
-         smooth
-         scale <1,0.097,1>
-         pigment { gradient y
-                   color_map  {hot}
-                   scale 0.075
-                   translate -y * 0.047 }}
+     function 800, 800 { fn(x,y,z) }
+     smooth
+     scale <1,  0.4, 1>
+     pigment { gradient y
+               color_map  {summer}
+               scale 0.1 }}
 //
 // Object
 //
 intersection{
 
-  box{-0.135, 0.99 
+  box{0.165, 0.99 
   pigment {  gradient y
-             color_map {hot}
+             color_map {summer}
              translate -y * 0.45
              scale 0.3 }}
 

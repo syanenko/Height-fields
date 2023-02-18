@@ -21,24 +21,25 @@ light_source { <10,10,10>, rgb <1,1,1> }
 //
 // Colormap
 //
-#declare hot = make_colormap (hot, 0, 0);
+#declare jet = make_colormap (jet, 0, 0);
 
 //
-// Sine function
+// Warp function
 //
 #declare fn = function { pattern {
-                         granite sine_wave scale 0.7 }}
+         granite scale 0.7
+         warp {
+	       turbulence <0.25,0.05,0> octaves 4 omega 0.6 lambda 2.3 }}}
 //
 // Height field
 // 
 #declare hf = height_field {
-         function 800, 800 { fn(x, y, z) }
+         function 800, 800 { fn(x,y,z) }
          smooth
-         scale <1,0.097,1>
+         scale <1,0.1,1>
          pigment { gradient y
-                   color_map  {hot}
-                   scale 0.075
-                   translate -y * 0.047 }}
+                   color_map  {jet}
+                   scale 0.15 }}
 //
 // Object
 //
@@ -46,7 +47,7 @@ intersection{
 
   box{-0.135, 0.99 
   pigment {  gradient y
-             color_map {hot}
+             color_map {jet}
              translate -y * 0.45
              scale 0.3 }}
 
