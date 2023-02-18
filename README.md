@@ -6,7 +6,15 @@
 <p align="center">
   <em>Sine wave on granite pattern with <b>'hot'</b> colormap</em>
 </p>
- 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6688301/219866054-61177453-7980-4a2a-a02c-9b36d14bea99.png" alt="Material Bread logo">
+<p align="center">
+  <em>Warp function on granite pattern with <b>'jet'</b> colormap</em>
+</p>
+
+\
+\
 Colormaps for POV-Ray: https://github.com/syanenko/Colormaps
 
 About POV-Ray:\
