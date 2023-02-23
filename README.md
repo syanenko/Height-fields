@@ -1,6 +1,6 @@
 # POV height fields
 ### POV-Ray techniques of passing wave function to height fields in combination with different colormaps.
-
+Complete set of colormaps: https://github.com/syanenko/Colormaps
 #
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6688301/219864857-964425a1-5e63-4089-adce-8b42b65599b2.png" alt="Material Bread logo">
@@ -34,7 +34,6 @@
 </p>
 
 #
-Colormaps for POV-Ray: https://github.com/syanenko/Colormaps
 
 About POV-Ray:\
 Officail site: [povray.org](http://www.povray.org)\
