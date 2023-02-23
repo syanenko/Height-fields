@@ -1,14 +1,15 @@
 # POV height fields
 ### POV-Ray techniques of passing wave function to height fields in combination with different colormaps.
-  
+
+#
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6688301/219864857-964425a1-5e63-4089-adce-8b42b65599b2.png" alt="Material Bread logo">
  <p align="center">
    <em>Sine wave on granite pattern with <b>'hot'</b> colormap</em>
  </p> 
 </p>
- 
- 
+
+#
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6688301/219866054-61177453-7980-4a2a-a02c-9b36d14bea99.png" alt="Material Bread logo">
  <p align="center">
@@ -16,7 +17,7 @@
  </p>
 </p>
  
- 
+#
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6688301/219866724-b7401186-1d83-4a19-93df-6f5c6005d8ef.png" alt="Material Bread logo">
  <p align="center">
@@ -24,7 +25,7 @@
  </p> 
 </p>
 
-
+#
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6688301/219898795-341ccc6b-11b4-45c2-a79b-6305633dc437.png" alt="Material Bread logo">
  <p align="center">
@@ -32,8 +33,7 @@
  </p> 
 </p>
 
-
-
+#
 Colormaps for POV-Ray: https://github.com/syanenko/Colormaps
 
 About POV-Ray:\
