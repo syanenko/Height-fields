@@ -1,4 +1,4 @@
-# POV height fields
+# *POV height fields*
 ### POV-Ray techniques of passing wave function to height fields in combination with different colormaps.
 Complete set of colormaps: https://github.com/syanenko/Colormaps
 #
